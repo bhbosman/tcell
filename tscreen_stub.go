@@ -1,3 +1,4 @@
+//go:build js || plan9 || windows
 // +build js plan9 windows
 
 // Copyright 2021 The TCell Authors
@@ -21,5 +22,5 @@ package tcell
 // that we can obtain with the console API present on Windows.
 
 func (t *tScreen) initialize() error {
-	return ErrNoScreen
+	return nil
 }

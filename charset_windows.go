@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 // Copyright 2015 The TCell Authors
@@ -17,5 +18,5 @@
 package tcell
 
 func getCharset() string {
-	return "UTF-16"
+	return "UTF-8"
 }
