@@ -1,12 +1,14 @@
 module github.com/gdamore/tcell/v2
 
-go 1.12
+go 1.24.0
 
 require (
-	github.com/gdamore/encoding v1.0.0
+	github.com/gdamore/encoding v1.0.1
 	github.com/lucasb-eyer/go-colorful v1.2.0
-	github.com/mattn/go-runewidth v0.0.13
-	golang.org/x/sys v0.0.0-20220318055525-2edf467146b5
-	golang.org/x/term v0.0.0-20201210144234-2321bbc49cbf
-	golang.org/x/text v0.3.7
+	github.com/mattn/go-runewidth v0.0.16
+	golang.org/x/sys v0.31.0
+	golang.org/x/term v0.30.0
+	golang.org/x/text v0.23.0
 )
+
+require github.com/rivo/uniseg v0.4.7 // indirect
